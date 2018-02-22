@@ -1,0 +1,127 @@
+#+TITLE: Flying Fox Undocking Checklist
+#+OPTIONS: html-style:nil
+#+OPTIONS: toc:nil num:0 doctype:html5
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="rs.css" />
+
+* Cold Start
+** Preliminaries
+- [ ] Buckle Up
+- [ ] Instrument Lights
+- [ ] Ensure throttles are zeroed
+** Battery Systems
+- [ ] Enable Battery 1
+- [ ] Select Battery 1 (if necessary)
+- [ ] Tie Battery to System Bus 1
+- [ ] Confirm System Bus 1 has full power available
+- [ ] Confirm System Bus 1 indicator is green
+- [ ] Enable External Power
+- [ ] Confirm Battery 1 no longer losing power
+- [ ] Enable Battery 2
+- [ ] Select Battery 2
+- [ ] Tie Battery to System Bus 2
+- [ ] Confirm System Bus 2 has full power available
+- [ ] Confirm System Bus 2 indicator is green
+** Fuel Cells
+- [ ] Enable Fuel Cell 1
+- [ ] Confirm Fuel Core Temp. is rising
+- [ ] Enable Fuel Cell 2
+- [ ] Select Fuel Cell 2
+- [ ] Confirm Fuel Core Temp. is rising
+** Temperature Management
++ [ ] Enable TMS
++ [ ] Select Cooling Loop 1 (if necessary)
++ [ ] Pressurize Coolant Tank Bladder
++ [ ] Confirm Tank Level decreases
++ [ ] Wait for Pressure >= 100psi
++ [ ] Enable Coolant Circulation Pump
++ [ ] Confirm Pump stabilizes at 50%
++ [ ] Set Pump speed to NORM
++ [ ] Confirm Pump stabilizes at 92%
++ [ ] Enable Radiation-Balanced Laser Cooling
++ [ ] Select Cooling Loop 2
++ [ ] Pressurize Coolant Tank Bladder
++ [ ] Confirm Tank Level decreases
++ [ ] Wait for Pressure >= 100psi
++ [ ] Enable Coolant Circulation Pump
++ [ ] Confirm Pump stabilizes at 50%
++ [ ] Set Pump speed to NORM
++ [ ] Confirm Pump stabilizes at 92%
++ [ ] Enable Radiation-Balanced Laser Cooling
++ [ ] Enable HVAC
+** Traffic Control Check-In
++ [ ] Enable COMMS System
++ [ ] Enable Transmitter
++ [ ] Check in with STC
++ [ ] Request Departure Clearance
+** High Voltage Systems: Stage 1
+- [ ] Enable LENR Systems
+- [ ] Enable Core Heater
+- [ ] Verify LENR Core Temperature is rising
+- [ ] Enable RCM Systems
+- [ ] Pressurize Tank 1 Pressure Bladder
+- [ ] Pressurize Tank 2 Pressure Bladder
+- [ ] Pressurize Tank 3 Pressure Bladder
+- [ ] Pressurize Tank 4 Pressure Bladder
+- [ ] Ensure all tanks are pressurizing
+- [ ] Validate LENR Source Tank
+- [ ] Confirm LENR Reactant Tank 2 is selected
+- [ ] Select LENR Reactant Tank 4
+- [ ] Confirm LENR Reactant Tank 4 is selected
+- [ ] Select Fuel Cell 2 (if necessary)
+- [ ] Validate Fuel Cell 2
+- [ ] Set Purge Contaminants to Auto-On
+- [ ] Select Fuel Cell 1
+- [ ] Validate Fuel Cell 1
+- [ ] Set Purge Contaminants to Auto-On
+** MFD and Navigation Setup
++ [ ] Enable VMS Displays
++ [ ] Switch to Aft Towing Camera (optional)
++ [ ] Enable External Docking Info Mode
++ [ ] Select EA/D Ports in MFD
++ [ ] Select Connected External Port
++ [ ] Set as Docking Target
++ [ ] Select Navigation in MFD
++ [ ] Enable NAS Systems
++ [ ] Confirm Navigation MFD is Populated
++ [ ] Select COMMS in MFD
+** High Voltage Systems: Stage 2
++ [ ] Confirm LENR Core Temperature is >= 290F
++ [ ] Notify STC of LENR intiation
++ [ ] Await STC Clearance
++ [ ] Initiate LENR reaction
++ [ ] Confirm Main Power Bus has power available (wont be full)
++ [ ] Confirm ECS Main indicator is green
++ [ ] Tie Main Bus to System Bus 1
++ [ ] Tie Main Bus to System Bus 2
++ [ ] Tie Main Bus to Utility Bus
++ [ ] Disable External Power
++ [ ] Select Battery 2 (if necessary)
++ [ ] Allow Battery Charging
++ [ ] Verify Battery is charging
++ [ ] Select Battery 1
++ [ ] Allow Battery Charging
++ [ ] Verify Battery is charging
+** Maneuvering Systems: Stage 1
++ [ ] Enable MTS Systems
++ [ ] Validate Propellant
++ [ ] Confirm Tank 1 is selected
++ [ ] Enable Propellant Injector
+** External Lights
++ [ ] Enable Docking Lights
++ [ ] Enable External Flood Lights
++ [ ] Enable Navigation Lights
+** Undocking
++ [ ] Notify STC that you are ready for departure
++ [ ] Tune Channel 2 to provided departure frequency
++ [ ] Tune Channel 3 to provided localizer frequency
++ [ ] Await undocking
++ [ ] Maneuver to 200m from the station
++ [ ] Disable Docking Lights
+** Maneuvering Systems: Stage 2
+- [ ] Enable Superconductor
+- [ ] Enable Helicon Coupler
+- [ ] Wait for Magnetic Containment Field to reach safe levels
+- [ ] Press and hold MTS Ignition
+- [ ] Wait for Plasma Core Temperature to stabilize (red)
+- [ ] Enable Ion Cyclotron Heater
+- [ ] Wait for Plasma Core Temperature to stabilize (blue)
