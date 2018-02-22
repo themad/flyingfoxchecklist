@@ -1,0 +1,5 @@
+html body { background: black; color: #5555ff; }
+ul { list-style: none; }
+
+input:checked { color: #55ff55; }
+input[type="checkbox"]:checked + label { color: #55ff55; background: green; }
