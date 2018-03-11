@@ -1,7 +1,7 @@
 #+TITLE: Flying Fox Undocking Checklist
-#+OPTIONS: html-style:nil
-#+OPTIONS: toc:nil num:0 doctype:html5
+#+OPTIONS: toc:nil num:0 doctype:html5 html-style:nil html5-fancy:true
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="rs.css" />
+#+HTML_DOCTYPE: html5
 
 * Cold Start
 ** Preliminaries

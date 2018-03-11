@@ -1,5 +1,10 @@
-html body { background: black; color: #5555ff; }
+html body { background: black; color: #5555ff; font-family: Helvetica, Arial, sans-serif; font-size: 140%;}
+
 ul { list-style: none; }
 
-input:checked { color: #55ff55; }
-input[type="checkbox"]:checked + label { color: #55ff55; background: green; }
+h1 { color: #ffec00;}
+h3 { color: #aaffaa; }
+
+/* input[type="checkbox"] { visibility: hidden; display: none; } */
+
+input[type="checkbox"]::after { color: #55ff55; display: inline; visibility: visible;}
